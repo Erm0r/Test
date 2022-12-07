@@ -10,4 +10,8 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - '**/*'
+    - build/libs/*.jar
+    - scripts/*.sh
+    - appspec.yml
+  #com/mycompany/app/HelloWorld.java, specifying yes will place this file in /HelloWorld.java
+  discard-paths: yes

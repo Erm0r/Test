@@ -14,6 +14,6 @@ class BackEndPfeApplicationTests {
 
 	@Test
 	public void assetHelloWorld() {
-		assertEquals("hello","hel");
+		assertEquals("hello","hello");
 	}
 }

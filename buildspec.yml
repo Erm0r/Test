@@ -11,4 +11,3 @@ phases:
 artifacts:
   files:
     - target/test.jar
-  discard-paths: yes
